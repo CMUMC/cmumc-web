@@ -1,0 +1,14 @@
+{
+  "extends": ["html-validate:recommended", "html-validate:prettier"],
+  "rules": {
+    "no-inline-style": "off",
+    "attribute-allowed-values": [
+      "error",
+      {
+        "ignore": ["href"]
+      }
+    ],
+    "no-redundant-role": "off",
+    "long-title": "off"
+  }
+}

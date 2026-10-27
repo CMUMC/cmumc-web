@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Trouble Connecting to the Server
+    url: https://cmumc.github.io/get-started.html
+    about: Walk through the steps to connect, then open an issue on mc-server if you're still stuck.

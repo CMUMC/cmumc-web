@@ -1,0 +1,24 @@
+name: Report a Problem
+description: Something on the site is broken, wrong, or hard to read.
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the page with the problem.
+      placeholder: https://cmumc.github.io/get-started.html
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's Wrong
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and Device
+      placeholder: Firefox on a phone

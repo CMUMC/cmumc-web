@@ -1,0 +1,12 @@
+# Links the 2021 archive keeps on purpose: past events, sign-in pages, and
+# sites that turn away link checkers
+exclude = [
+  "^mailto:",
+  "^https://cmu\\.zoom\\.us/",
+  "^https://forms\\.gle/",
+  "^https://minecraft\\.alumni\\.cmu\\.edu/",
+  "^https://www\\.minecraft\\.net/",
+  "^https://www\\.youtube\\.com/",
+]
+accept = ["200..=299", "403", "429"]
+max_retries = 3

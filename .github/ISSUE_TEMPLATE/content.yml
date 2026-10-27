@@ -1,0 +1,15 @@
+name: Suggest Content
+description: A page, event, photo, or guide the site should have.
+labels: [content]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What to Add or Change
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Who It's For
+      description: Who would use it, and what they'd do with it.
