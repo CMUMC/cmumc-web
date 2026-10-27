@@ -1,198 +1,208 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Get Started - Minecraft - Carnegie Mellon University</title>
-    <meta content="Minecraft - Carnegie Mellon University" name="description">
-    <meta content="Carnegie Mellon University" name="author">
-    <meta content="Minecraft - Carnegie Mellon University" property="og:title">
-    <meta content="Minecraft" property="og:description">
-    <meta content="website" property="og:type">
-    <meta content="https://minecraft.alumni.cmu.edu" property="og:url">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Started - Minecraft Multiplayer Server - Carnegie Mellon University</title>
+    <meta
+      name="description"
+      content="Connect to Carnegie Mellon's Minecraft server in ten steps: add the server, then link your Andrew ID and Minecraft accounts."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://www.cmu.edu/common/standard-v6/css/main.6.7.min.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://www.cmu.edu/common/standard-v6/css/print.min.css"
+      media="print"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/cmu-web/cmu-web-kit@0.1.0/css/cmu-cms.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://www.cmu.edu/favicon.ico" rel="icon" />
+    <link href="https://www.cmu.edu/favicon-152.png" rel="apple-touch-icon-precomposed" />
+    <meta content="#9f0000" name="msapplication-TileColor" />
+    <meta content="https://www.cmu.edu/favicon-144.png" name="msapplication-TileImage" />
+  </head>
+  <body class="no-js">
+    <div id="container">
+      <header>
+        <div class="roof red invert">
+          <div>
+            <a class="wordmark" href="https://www.cmu.edu/">Carnegie Mellon University</a>
+            <button
+              type="button"
+              aria-label="toggle menu"
+              aria-pressed="false"
+              class="menu-btn"
+              href="#nav"
+            >
+              <b>&#8212;</b><b>&#8212;</b><b>&#8212;</b>
+            </button>
+          </div>
+        </div>
+        <div id="sitename">
+          <span class="sitetitle"><a href="index.html">Minecraft Multiplayer Server</a></span>
+          <h2><a href="https://alumni.cmu.edu/">Brought to You by the Alumni Association</a></h2>
+        </div>
+      </header>
 
-    <link href="css/css.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/print.css" media="print" rel="stylesheet" type="text/css">
+      <main id="content">
+        <div class="breadcrumbs">
+          <a href="https://alumni.cmu.edu/">Alumni Association</a>&nbsp;&rsaquo;&nbsp;<a
+            href="index.html"
+            >Minecraft</a
+          >&nbsp;&rsaquo;&nbsp;Get Started
+        </div>
 
-    <link href="/favicon.ico" rel="icon">
-    <meta content="#9f0000" name="msapplication-TileColor">
-</head>
-<body class=""><img id="wordmarkPrint" alt="" src="css/images/cmu-wordmark.png">
+        <div class="content wide blue invert">
+          <div>
+            <p>
+              <strong>Minecraft Webinar:</strong> if you're new to Minecraft, we're offering a
+              "Minecraft for Beginners" webinar on Tuesday, April 14, 2020, at 4:30 p.m. ET.
+              <a
+                class="external"
+                href="https://cmu.zoom.us/meeting/register/uJEocuGopjkrBPxd87SHNjmPWBNxdY2quA"
+                >Register on Zoom</a
+              >
+            </p>
+          </div>
+        </div>
 
-  <div id="container">
+        <!-- The sidebar must touch the content div (no whitespace), so Prettier leaves this alone -->
+        <!-- prettier-ignore -->
+        <div class="content">
+          <div>
+            <h1>Get Started With Minecraft</h1>
+            <div class="cmu-callout cmu-callout--blue">
+              <p class="cmu-label">Before You Start</p>
+              <p>The <strong>Java</strong> edition of Minecraft and an @andrew.cmu.edu or @alumni.cmu.edu account are required to sign in to the CMU Minecraft server. If you need an @alumni.cmu.edu email, <a class="external" href="https://www.cmu.edu/engage/alumni/resources/alumni-email.html">follow these instructions</a>.</p>
+            </div>
 
-  <header>
-    <div class="roof red invert">
-      <div>
-        <a class="wordmark" href="https://www.cmu.edu/">Carnegie Mellon University</a>
-        <a href="#nav" id="skipnav" aria-haspopup="true">Menu</a><a aria-haspopup="true" class="menu-btn" href="javascript:void(0) // Nav - Toggle Menu" aria-hidden="true"><b>—</b><b>—</b><b>—</b></a>
-      </div>
-    </div>
+            <h2>The Server's Address</h2>
+            <pre class="cmu-snippet" id="mc-address"><code>mc.andrew.cmu.edu</code></pre>
+            <p><button class="btn" type="button" data-cmu-copy="#mc-address">Copy the Address</button></p>
 
+            <h2>Connect in Ten Steps</h2>
+            <ol class="cmu-steps">
+              <li>
+                <strong>Open Minecraft and press Play.</strong>
+                <figure class="cmu-shot"><img src="images/steps/1-play.png" alt="The Minecraft launcher with the green Play button." width="1000" height="624" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Select Multiplayer.</strong>
+                <figure class="cmu-shot"><img src="images/steps/2-mult.png" alt="Minecraft's title screen with Multiplayer under Singleplayer." width="854" height="504" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Add a new server.</strong>
+                <figure class="cmu-shot"><img src="images/steps/3-add.png" alt="The Play Multiplayer screen with the Add Server button." width="854" height="504" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Add the server information.</strong> Name it CMU, and for the address, enter <code>mc.andrew.cmu.edu</code>.
+                <figure class="cmu-shot"><img src="images/steps/4-new.png" alt="The Edit Server Info screen with the name CMU and the address mc.andrew.cmu.edu." width="854" height="504" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Click on the CMU server.</strong>
+                <figure class="cmu-shot"><img src="images/steps/5-list.png" alt="The server list with the CMU server on it." width="854" height="504" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Go to the auth address and give your code.</strong> The server shows a code that's good for 20 minutes. Enter it at <a href="https://minecraft.alumni.cmu.edu/auth">minecraft.alumni.cmu.edu/auth</a>.
+                <figure class="cmu-shot"><img src="images/steps/6-auth.png" alt="A Welcome to CMU MC message asking you to visit the auth page and enter a seven-letter code." width="854" height="504" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Link your CMU and Minecraft accounts.</strong> Only one Minecraft account can be linked to each Andrew ID.
+                <figure class="cmu-shot"><img src="images/steps/7-link.png" alt="The Minecraft Account Link page with the account policies, your Andrew ID, and a box for your access code." width="750" height="885" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>See the confirmation message.</strong>
+                <figure class="cmu-shot"><img src="images/steps/8-success.png" alt="A message saying your accounts are linked." width="748" height="329" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Click Back to Server List.</strong>
+                <figure class="cmu-shot"><img src="images/steps/6-auth.png" alt="The server's welcome message with the Back to Server List button under the code." width="854" height="504" loading="lazy"></figure>
+              </li>
+              <li>
+                <strong>Click on the CMU server again.</strong> You're in.
+                <figure class="cmu-shot"><img src="images/steps/5-list.png" alt="The server list with the CMU server on it." width="854" height="504" loading="lazy"></figure>
+              </li>
+            </ol>
+          </div><div class="sidebar">
+            <div class="blue invert">
+              <h1>Buy Minecraft</h1>
+              <p>The <strong>Java</strong> edition of Minecraft is required to connect to our multiplayer server.</p>
+              <p><a class="external" href="https://www.minecraft.net/en-us/store/minecraft-java-edition/">Buy Minecraft: Java Edition</a></p>
+            </div>
+          </div>
+        </div>
 
-    <div id="sitename">
-      <h1><a href="https://minecraft.alumni.cmu.edu">Minecraft Multiplayer Server</a></h1>
-      <h2><a href="https://alumni.cmu.edu/" target="_blank">Brought to you by the Alumni Association</a></h2>
-    </div>
+        <div class="content wide red invert plaid">
+          <div>
+            <h2 class="aligncenter">
+              Virtual Carnival &amp; Reunion Weekend:
+              <a
+                class="cta"
+                href="https://www.cmu.edu/engage/alumni/events/campus/spring-carnival/index.html#schedule"
+                >View the Full Schedule</a
+              >
+            </h2>
+          </div>
+        </div>
+      </main>
 
-  </header>
-
-  <div id="content">
-    <div class="breadcrumbs">
-      <a href="https://alumni.cmu.edu/" target="_blank">Alumni Association</a>
-      &nbsp;&#8250;&nbsp;
-      <a href="index.html">Minecraft</a>
-      &nbsp;&#8250;&nbsp;
-      Get Started
-    </div>
-
-    <div class="content">
-      <h1>Get Started with Minecraft</h1>
-    </div>
-
-    <div class="content wide green invert none">
-      <div>
-        <a href="https://cmu.zoom.us/meeting/register/uJEocuGopjkrBPxd87SHNjmPWBNxdY2quA" rel="noopener" target="_blank">
-          <strong>MINECRAFT WEBINAR</strong>
-        </a><strong>:</strong>
-        <span>&nbsp;If you're new to Minecraft, we're offering a "Minecraft for Beginners" webinar on Tuesday, April 14, 2020 @ 4:30 p.m. ET.&nbsp;</span>
-        <a class="cta" href="https://cmu.zoom.us/meeting/register/uJEocuGopjkrBPxd87SHNjmPWBNxdY2quA" rel="noopener" target="_blank">Register Now</a>
-      </div>
-    </div>
-
-    <div class="content">
-      <div>
-        <h2>0. Before you start</h2>
-        <p>
-          The <strong>Java</strong> edition of
-          Minecraft and an @andrew.cmu.edu or @alumni.cmu.edu account
-          are required to login to the CMU Minecraft server. If you
-          need an @alumni.cmu.edu email,
-          please
-          <a href="https://www.cmu.edu/engage/alumni/resources/alumni-email.html"
-             rel="noopener" target="_blank">follow these instructions</a>.
-        </p>
-        
-        <h2>1. Open Minecraft and Press Play</h2>
-        <p>
-          <img src="images/steps/1-play.png">
-        </p>
-
-        <h2>2. Select Multiplayer</h2>
-        <p>
-          <img src="images/steps/2-mult.png">
-        </p>
-
-        <h2>3. Add a New Server</h2>
-        <p>
-          <strong>mc.andrew.cmu.edu</strong>
-          <img src="images/steps/3-add.png">
-        </p>
-
-        <h2>4. Add the Server Information</h2>
-        <p>
-          <img src="images/steps/4-new.png">
-        </p>
-
-        <h2>5. Click on the CMU Server</h2>
-        <p>
-          <img src="images/steps/5-list.png">
-        </p>
-
-        <h2>6. Go to the Auth URL and provide your code</h2>
-        <p>
-          <strong><a href="https://minecraft.alumni.cmu.edu/auth">https://minecraft.alumni.cmu.edu/auth</a></strong>
-          <img src="images/steps/6-auth.png">
-        </p>
-
-        <h2>7. Link Your CMU and Minecraft Accounts</h2>
-        <p>
-          <img src="images/steps/7-link.png">
-        </p>
-
-        <h2>8. Confirmation Message</h2>
-        <p>
-          <img src="images/steps/8-success.png">
-        </p>
-
-        <h2>9. Click "Back to Server List"</h2>
-        <p>
-          <img src="images/steps/6-auth.png">
-        </p>
-
-        <h2>10. Click on the CMU Server</h2>
-        <p>
-          <img src="images/steps/5-list.png">
-        </p>
-        
-    </div><div class="sidebar">
-          <div class="list blue invert">
+      <footer class="grid column3 invert">
+        <div>
+          <p>
+            Minecraft Multiplayer Server<br />Carnegie Mellon University<br />5000 Forbes Avenue<br />Pittsburgh,
+            PA 15213
+          </p>
           <ul>
             <li>
-              <a href="https://www.minecraft.net/en-us/store/minecraft-java-edition/"
-                 target="_blank">
-                <h2>Buy Minecraft</h2>
-                <p>
-                  The <strong>Java</strong> edition of Minecraft is
-                  required to connect to our multiplayer
-                  server.
-                </p>
-              </a>
+              <a href="mailto:meribyte+mc-contact@andrew.cmu.edu?subject=Minecraft%20Contact"
+                >Contact Us</a
+              >
             </li>
+            <li><a href="https://www.cmu.edu/legal/">Legal Info</a></li>
+            <li><a href="https://www.cmu.edu/">www.cmu.edu</a></li>
+          </ul>
+          <ul>
+            <li>&copy; 2021 Carnegie Mellon University</li>
           </ul>
         </div>
-      </div>
+        <div></div>
+        <div>
+          <nav id="nav">
+            <ul>
+              <li class="active"><a href="get-started.html" aria-current="page">Get Started</a></li>
+              <li><a href="ways-to-play.html">Ways to Play</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li class="secondary">
+                <a class="external" href="https://www.youtube.com/channel/UCsDxCj69bfDk16bq2C8YhCQ"
+                  >CMUMC on YouTube</a
+                >
+              </li>
+              <li class="secondary">
+                <a class="external" href="https://github.com/CMUMC">CMUMC on GitHub</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
-
-
-
-    <div class="content wide red invert plaid">
-      <div>
-        <h2 style="text-align: center;">Virtual Carnival &amp; Reunion Weekend:<span>&#160;</span><a class="cta" href="https://www.cmu.edu/engage/alumni/events/campus/spring-carnival/index.html#schedule">VIEW THE FULL SCHEDULE</a></h2>
-      </div>
-    </div>
-
-    <footer class="grid column3 invert">
-      <div>
-        <p>
-          Minecraft Team<br/>
-          5000 Forbes Ave<br/>
-          Pittsburgh, PA 15213<br/>
-          <a href="mailto:meribyte+mc-contact@andrew.cmu.edu?subject=Minecraft%20SContact">Contact Us</a>
-        </p>
-        <ul>
-          <li><a href="https://www.cmu.edu/legal/" target="_blank">Legal Info</a></li>
-          <li><a href="https://www.cmu.edu/">www.cmu.edu</a></li>
-        </ul>
-        <ul><li>© <span id="js-current-year">2020</span> Carnegie Mellon University</li>
-        </ul>
-      </div>
-
-      <nav id="nav">
-        <ul>
-        <li class="active expand">
-          <a href="get-started.html" target="_self">Get Started</a>
-        </li>
-        <li class="">
-          <a href="ways-to-play.html" target="_self">Ways to Play</a>
-        </li>
-        <li class="">
-          <a href="gallery.html" target="_self">Gallery</a>
-        </li>
-        <li class="">
-          <a href="about-us.html" target="_self">About Us</a>
-        </li>
-        </ul>
-      </nav>
-    </footer>
-
-  </div>
-  </div>
-
-  <script src="js/list.js"></script>
-  <script src="js/jquery.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/flickity.js"></script>
-</body>
+    <script src="https://www.cmu.edu/common/standard-v6/js/list.min.js"></script>
+    <script src="https://www.cmu.edu/common/standard-v6/js/jquery-1.10.1.min.js"></script>
+    <script src="https://www.cmu.edu/common/standard-v6/js/main.6.7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cmu-web/cmu-web-kit@0.1.0/js/cmu-app.js"></script>
+  </body>
 </html>
