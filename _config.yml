@@ -1,0 +1,27 @@
+# CMU's Minecraft Multiplayer Server, at https://cmumc.github.io/cmumc-web/.
+# Built with the Carnegie Mellon Web Jekyll Theme (https://cmu-web.github.io/cmu-web-jekyll/).
+remote_theme: cmu-web/cmu-web-jekyll
+plugins: [jekyll-remote-theme]
+title: Minecraft Multiplayer Server
+description: Brought to You by the Alumni Association
+cmu:
+  kit: 0.1.0
+  parent:
+    title: Alumni Association
+    url: https://alumni.cmu.edu/
+  nav: [get-started.html, ways-to-play.html, gallery.html, about-us.html]
+  nav_links:
+    - title: CMUMC on YouTube
+      url: https://www.youtube.com/channel/UCsDxCj69bfDk16bq2C8YhCQ
+  footer:
+    email: meribyte+mc-contact@andrew.cmu.edu
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - lychee.toml
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - vendor/

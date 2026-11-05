@@ -1,6 +1,8 @@
 default_install_hook_types: [pre-commit]
 default_stages: [pre-commit]
 
+# HTML validation needs a Jekyll build, so it runs in CI (npm run build, then
+# npm run validate), not on every commit
 repos:
   - repo: local
     hooks:
@@ -9,9 +11,3 @@ repos:
         entry: npm run format:check
         language: system
         pass_filenames: false
-      - id: html-validate
-        name: HTML validation
-        entry: npm run validate
-        language: system
-        pass_filenames: false
-        files: \.html$

@@ -3,11 +3,12 @@
   "description": "Carnegie Mellon's Minecraft Multiplayer Server site.",
   "private": true,
   "scripts": {
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve --livereload",
     "check": "npm run format:check && npm run validate",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "validate": "html-validate \"*.html\"",
-    "serve": "python3 -m http.server 8000"
+    "validate": "html-validate \"_site/**/*.html\""
   },
   "devDependencies": {
     "@j178/prek": "^0.5.7",
