@@ -11,8 +11,8 @@
     "validate": "html-validate \"_site/**/*.html\""
   },
   "devDependencies": {
-    "@j178/prek": "^0.5.7",
-    "html-validate": "^11.17.0",
+    "@j178/prek": "^0.5.10",
+    "html-validate": "^11.19.0",
     "prettier": "^3.9.10"
   }
 }
